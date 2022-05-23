@@ -1,0 +1,15 @@
+{
+    "name": "Online Wire",
+    "env": {
+        "FFMPEG": {
+            "required": true
+        }
+    },
+    "stack": "container",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
